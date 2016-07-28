@@ -1,0 +1,28 @@
+div(ng-app="myCalc" ng-controller="calculatorCtrl" class="container")#shell 
+	div.input 
+			p Solar Calculator 
+		input(type="text disabled" ng-model="screen" disabled  class="screen" value="0") 
+	div.solarPanel
+		input(type="text disabled" disabled value="| | | | | | | | | | | | |" class="solar")
+	div.controls
+		button(type="button" class="btn offbtn" ng-click="offBtn()" id="clear") OFF
+		button(type="button" class="btn negbtn" ng-click="negBtn()" id="neg") +/-
+		button(type="button" class="btn percentbtn" ng-click="dec('.')" id="decimal") .
+		button(type="button" class="btn equalbtn" ng-click="equals()" id="equals") =
+		button(type="button" class="btn numbtn" ng-click="numOp('7')" id="seven") 7
+		button(type="button" class="btn numbtn" ng-click="numOp('8')" id="eight") 8
+		button(type="button" class="btn numbtn" ng-click="numOp('9')" id="nine") 9
+		button(type="button" class="btn plusbtn" ng-click="mathOp('plus')" id="plus") +
+		button(type="button" class="btn numbtn" ng-click="numOp('4')" id="four") 4
+		button(type="button" class="btn numbtn" ng-click="numOp('5')" id="five") 5
+		button(type="button" class="btn numbtn" ng-click="numOp('6')" id="six") 6
+		button(type="button" class="btn subtractbtn" ng-click="mathOp('minus')" id="sub") -
+		button(type="button" class="btn numbtn" ng-click="numOp('1')" id="one") 1
+		button(type="button" class="btn numbtn" ng-click="numOp('2')" id="two") 2
+		button(type="button" class="btn numbtn" ng-click="numOp('3')" id="three") 3
+		button(type="button" class="btn delbtn" ng-click="delete(' ')" id="delete") del
+		button(type="button" class="btn opbtn" ng-click="numOp('0')" id="dot") 0
+		button(type="button" class="btn opbtn" ng-click="mathOp('times')" id="times") &times;
+		button(type="button" class="btn opbtn" ng-click="mathOp('divide')" id="divide") &divide;
+		button(type="button" class="btn onbtn" ng-click="onBtn(' ')" id="onoff") ON/AC
+	

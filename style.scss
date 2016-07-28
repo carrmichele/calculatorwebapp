@@ -1,0 +1,195 @@
+body {
+	background: url(https://static.pexels.com/photos/1486/wood-pattern-ground-parquet-floor.jpg);
+}
+
+#shell {
+	-webkit-transform: rotate(-5deg);
+-moz-transform: rotate(-5deg);
+-o-transform: rotate(-5deg);
+-ms-transform: rotate(-5deg);
+transform: rotate(-5deg);
+	background-color: rgb(236, 217, 198);
+margin-top: 20px;
+	height: 580px;
+	width: 300px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+	-webkit-box-shadow: 5px 10px 20px #000;
+-moz-box-shadow: 5px 10px 20px #000;
+box-shadow: 5px 10px 20px #000;
+	 border-width:5px;	
+	border-color: rgb(233, 217, 199);
+    border-style:outset;
+}
+
+.input p {
+margin-top: 10px;
+font-family: 'Slabo 27px', serif;
+font-size: 25px;
+text-align: center;
+color:rgb(64, 64, 64);
+text-shadow: 1px 2px 3px #666;
+
+
+}
+
+input.solar {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 40%;
+	border-radius: 10%;
+	color:rgb(89, 89, 89);
+	background-color:rgb(64, 64, 64);
+
+}
+
+input.screen{
+	text-align: right;
+	background-color: rgb(115, 115, 115);
+	margin-top: 2px;
+	width: 100%;
+	height: 10vmin;
+	padding: 2px;
+	margin-bottom: 10px;
+font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	-webkit-box-shadow: 2px 2px 5px #000000, inset 2px 2px 10px #000000;
+-moz-box-shadow: 2px 2px 5px #000000, inset 2px 2px 10px #000000;
+box-shadow: 2px 2px 5px #000000, inset 2px 2px 10px #000000;
+}
+
+button  {
+	height: 10vmin;
+	width: 20%;
+	padding: 5px;
+	border-radius: 32px;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+-webkit-box-shadow: 2px 2px 5px #000000, inset 2px 2px 5px #666;
+-moz-box-shadow: 2px 2px 5px #000000, inset 2px 2px 5px #666;
+box-shadow: 2px 2px 5px #000000, inset 2px 2px 5px #666;
+
+	
+}
+
+button:hover{
+	background-color: white;
+	opacity: 0.5;
+}
+
+button:active {
+	background-color: blue;
+	border-color: 0;
+color: white;
+}
+.clearbtn {
+	@extend button;
+	color:white;
+background-color: rgb(255, 77, 77);
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ff9999), to(#ff4d4d));
+background: -webkit-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -moz-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -o-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -ms-radial-gradient(circle, #ff9999, #ff4d4d);
+background: radial-gradient(circle, #ff9999, #ff4d4d);
+background-color: #ff9999;
+}
+
+.offbtn {
+@extend button;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#bfbfbf), to(#8c8c8c));
+background: -webkit-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -moz-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -o-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -ms-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: radial-gradient(circle, #bfbfbf, #8c8c8c);
+background-color: #bfbfbf;
+color: white;
+font-size: 20px;}
+
+.negbtn {
+	@extend button;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#bfbfbf), to(#8c8c8c));
+background: -webkit-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -moz-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -o-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -ms-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: radial-gradient(circle, #bfbfbf, #8c8c8c);
+background-color: #bfbfbf;
+	color: white;
+	font-size: 20px
+
+}
+
+.percentbtn {
+	@extend button;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#bfbfbf), to(#8c8c8c));
+background: -webkit-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -moz-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -o-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -ms-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: radial-gradient(circle, #bfbfbf, #8c8c8c);
+background-color: #bfbfbf;
+	color: white;
+}
+
+#equals  {
+	background-color: rgb(255, 153, 102);
+	color: white;
+	@extend button;
+width: 35% !important;
+	border-radius: 20px !important;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ffbb99), to(#ff7733));
+background: -webkit-radial-gradient(circle, #ffbb99, #ff7733);
+background: -moz-radial-gradient(circle, #ffbb99, #ff7733);
+background: -o-radial-gradient(circle, #ffbb99, #ff7733);
+background: -ms-radial-gradient(circle, #ffbb99, #ff7733);
+background: radial-gradient(circle, #ffbb99, #ff7733);
+background-color: #ffbb99;
+}
+
+.numbtn {
+	@extend button;
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#bfbfbf), to(#8c8c8c));
+background: -webkit-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -moz-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -o-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: -ms-radial-gradient(circle, #bfbfbf, #8c8c8c);
+background: radial-gradient(circle, #bfbfbf, #8c8c8c);
+background-color: #bfbfbf;
+}
+
+.plusbtn {
+	@extend #equals;
+}
+
+.subtractbtn {
+	@extend #equals;
+}
+
+.delbtn {
+	@extend #equals;
+}
+
+.onbtn {
+@extend #equals;
+	background-color: rgb(255, 77, 77);
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ff9999), to(#ff4d4d));
+background: -webkit-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -moz-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -o-radial-gradient(circle, #ff9999, #ff4d4d);
+background: -ms-radial-gradient(circle, #ff9999, #ff4d4d);
+background: radial-gradient(circle, #ff9999, #ff4d4d);
+background-color: #ff9999;
+	
+}
+
+.opbtn {
+	@extend button;
+	background-color: rgb(153, 153, 153)!important;
+}
